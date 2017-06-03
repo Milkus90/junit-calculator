@@ -1,4 +1,5 @@
-package main;
+package test;
+
 
 public class Calculator {
 
@@ -14,7 +15,7 @@ public class Calculator {
 		return a * b;
 	}
 
-	public double divide(double a, double b) {
+	public double divide(double a, double b) throws IllegalAccessException {
 		if (b == 0) {
 			throw new IllegalArgumentException("Can't divide by zero!");
 		}
